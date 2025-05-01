@@ -1,0 +1,104 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "FQ0DQ6MA3C",
+    "apiKey": "8264730bab8a9b7fa6a0c85761d7a3fe",
+    "indexName": "tanstack"
+  },
+  "sections": [
+    {
+      "label": "بدء الاستخدام",
+      "children": [
+        {
+          "label": "نظرة عامة",
+          "to": "overview"
+        },
+        {
+          "label": "التثبيت",
+          "to": "installation"
+        },
+        {
+          "label": "بدء سريع",
+          "to": "quick-start"
+        }
+      ]
+    },
+    {
+      "label": "المحولات",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "React Ranger",
+              "to": "framework/react/react-ranger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "مرجع API",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "أساسي",
+              "to": "framework/react/api/basic"
+            },
+            {
+              "label": "خطوات مخصصة",
+              "to": "framework/react/api/custom-steps"
+            },
+            {
+              "label": "أنماط مخصصة",
+              "to": "framework/react/api/custom-styles"
+            },
+            {
+              "label": "المقحم اللوغاريتمي",
+              "to": "framework/react/api/logarithmic-interpolator"
+            },
+            {
+              "label": "التحديث عند السحب",
+              "to": "framework/react/api/update-on-drag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "أمثلة",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "أساسي",
+              "to": "framework/react/examples/basic"
+            },
+            {
+              "label": "خطوات مخصصة",
+              "to": "framework/react/examples/custom-steps"
+            },
+            {
+              "label": "أنماط مخصصة",
+              "to": "framework/react/examples/custom-styles"
+            },
+            {
+              "label": "المقحم اللوغاريتمي",
+              "to": "framework/react/examples/logarithmic-interpolator"
+            },
+            {
+              "label": "التحديث عند السحب",
+              "to": "framework/react/examples/update-on-drag"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "FQ0DQ6MA3C",
+    "apiKey": "8264730bab8a9b7fa6a0c85761d7a3fe",
+    "indexName": "tanstack"
+  },
+  "sections": [
+    {
+      "label": "Erste Schritte",
+      "children": [
+        {
+          "label": "Übersicht",
+          "to": "overview"
+        },
+        {
+          "label": "Installation",
+          "to": "installation"
+        },
+        {
+          "label": "Schnellstart",
+          "to": "quick-start"
+        }
+      ]
+    },
+    {
+      "label": "Adapter",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "React Ranger",
+              "to": "framework/react/react-ranger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "API-Referenz",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "Grundlagen",
+              "to": "framework/react/api/basic"
+            },
+            {
+              "label": "Benutzerdefinierte Schritte",
+              "to": "framework/react/api/custom-steps"
+            },
+            {
+              "label": "Benutzerdefinierte Stile",
+              "to": "framework/react/api/custom-styles"
+            },
+            {
+              "label": "Logarithmischer Interpolator",
+              "to": "framework/react/api/logarithmic-interpolator"
+            },
+            {
+              "label": "Aktualisierung beim Ziehen",
+              "to": "framework/react/api/update-on-drag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Beispiele",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "Grundlagen",
+              "to": "framework/react/examples/basic"
+            },
+            {
+              "label": "Benutzerdefinierte Schritte",
+              "to": "framework/react/examples/custom-steps"
+            },
+            {
+              "label": "Benutzerdefinierte Stile",
+              "to": "framework/react/examples/custom-styles"
+            },
+            {
+              "label": "Logarithmischer Interpolator",
+              "to": "framework/react/examples/logarithmic-interpolator"
+            },
+            {
+              "label": "Aktualisierung beim Ziehen",
+              "to": "framework/react/examples/update-on-drag"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
