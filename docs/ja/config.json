@@ -1,0 +1,104 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "FQ0DQ6MA3C",
+    "apiKey": "8264730bab8a9b7fa6a0c85761d7a3fe",
+    "indexName": "tanstack"
+  },
+  "sections": [
+    {
+      "label": "はじめに",
+      "children": [
+        {
+          "label": "概要",
+          "to": "overview"
+        },
+        {
+          "label": "インストール",
+          "to": "installation"
+        },
+        {
+          "label": "クイックスタート",
+          "to": "quick-start"
+        }
+      ]
+    },
+    {
+      "label": "アダプター",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "React Ranger",
+              "to": "framework/react/react-ranger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "APIリファレンス",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "基本",
+              "to": "framework/react/api/basic"
+            },
+            {
+              "label": "カスタムステップ",
+              "to": "framework/react/api/custom-steps"
+            },
+            {
+              "label": "カスタムスタイル",
+              "to": "framework/react/api/custom-styles"
+            },
+            {
+              "label": "対数補間 (Logarithmic Interpolator)",
+              "to": "framework/react/api/logarithmic-interpolator"
+            },
+            {
+              "label": "ドラッグ時更新 (Update on Drag)",
+              "to": "framework/react/api/update-on-drag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "例",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "基本",
+              "to": "framework/react/examples/basic"
+            },
+            {
+              "label": "カスタムステップ",
+              "to": "framework/react/examples/custom-steps"
+            },
+            {
+              "label": "カスタムスタイル",
+              "to": "framework/react/examples/custom-styles"
+            },
+            {
+              "label": "対数補間 (Logarithmic Interpolator)",
+              "to": "framework/react/examples/logarithmic-interpolator"
+            },
+            {
+              "label": "ドラッグ時更新 (Update on Drag)",
+              "to": "framework/react/examples/update-on-drag"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
