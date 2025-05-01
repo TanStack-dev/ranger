@@ -1,0 +1,104 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "FQ0DQ6MA3C",
+    "apiKey": "8264730bab8a9b7fa6a0c85761d7a3fe",
+    "indexName": "tanstack"
+  },
+  "sections": [
+    {
+      "label": "Premiers pas",
+      "children": [
+        {
+          "label": "Vue d'ensemble",
+          "to": "overview"
+        },
+        {
+          "label": "Installation",
+          "to": "installation"
+        },
+        {
+          "label": "Démarrage rapide",
+          "to": "quick-start"
+        }
+      ]
+    },
+    {
+      "label": "Adaptateurs",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "React Ranger",
+              "to": "framework/react/react-ranger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Référence API",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "Basique",
+              "to": "framework/react/api/basic"
+            },
+            {
+              "label": "Pas personnalisés",
+              "to": "framework/react/api/custom-steps"
+            },
+            {
+              "label": "Styles personnalisés",
+              "to": "framework/react/api/custom-styles"
+            },
+            {
+              "label": "Interpolateur logarithmique",
+              "to": "framework/react/api/logarithmic-interpolator"
+            },
+            {
+              "label": "Mise à jour au glisser",
+              "to": "framework/react/api/update-on-drag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Exemples",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "Basique",
+              "to": "framework/react/examples/basic"
+            },
+            {
+              "label": "Pas personnalisés",
+              "to": "framework/react/examples/custom-steps"
+            },
+            {
+              "label": "Styles personnalisés",
+              "to": "framework/react/examples/custom-styles"
+            },
+            {
+              "label": "Interpolateur logarithmique",
+              "to": "framework/react/examples/logarithmic-interpolator"
+            },
+            {
+              "label": "Mise à jour au glisser",
+              "to": "framework/react/examples/update-on-drag"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

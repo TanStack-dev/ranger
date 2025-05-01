@@ -1,0 +1,104 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "FQ0DQ6MA3C",
+    "apiKey": "8264730bab8a9b7fa6a0c85761d7a3fe",
+    "indexName": "tanstack"
+  },
+  "sections": [
+    {
+      "label": "開始使用",
+      "children": [
+        {
+          "label": "概述",
+          "to": "overview"
+        },
+        {
+          "label": "安裝",
+          "to": "installation"
+        },
+        {
+          "label": "快速開始",
+          "to": "quick-start"
+        }
+      ]
+    },
+    {
+      "label": "適配器",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "React Ranger",
+              "to": "framework/react/react-ranger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "API 參考",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "基本",
+              "to": "framework/react/api/basic"
+            },
+            {
+              "label": "自訂步長",
+              "to": "framework/react/api/custom-steps"
+            },
+            {
+              "label": "自訂樣式",
+              "to": "framework/react/api/custom-styles"
+            },
+            {
+              "label": "對數插值器",
+              "to": "framework/react/api/logarithmic-interpolator"
+            },
+            {
+              "label": "拖曳時更新",
+              "to": "framework/react/api/update-on-drag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "範例",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "基本",
+              "to": "framework/react/examples/basic"
+            },
+            {
+              "label": "自訂步長",
+              "to": "framework/react/examples/custom-steps"
+            },
+            {
+              "label": "自訂樣式",
+              "to": "framework/react/examples/custom-styles"
+            },
+            {
+              "label": "對數插值器",
+              "to": "framework/react/examples/logarithmic-interpolator"
+            },
+            {
+              "label": "拖曳時更新",
+              "to": "framework/react/examples/update-on-drag"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
