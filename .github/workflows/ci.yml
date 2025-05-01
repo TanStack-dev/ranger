@@ -6,6 +6,8 @@ on: [push]
 jobs:
   test-and-publish:
     name: 'Test & Publish'
+    # Add this condition to skip in forks
+    if: github.repository == 'TanStack/ranger'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3

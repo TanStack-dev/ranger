@@ -3,6 +3,8 @@ on: [pull_request]
 jobs:
   test:
     name: 'Test'
+    # Add this condition to skip in forks
+    if: github.repository == 'TanStack/ranger'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
